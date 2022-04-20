@@ -22,7 +22,6 @@ if((${CMAKE_VERSION} VERSION_GREATER "3.8.2")
   elseif(COMPILER_SUPPORTS_CXX0X)
     set(CMAKE_CXX_STANDARD 11)
     message(STATUS "Using C++11 compiler")
-    message(STATUS "Using C++11 compiler")
   else()
     message(
       FATAL_ERROR
