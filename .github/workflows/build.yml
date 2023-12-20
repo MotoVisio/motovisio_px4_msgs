@@ -19,7 +19,7 @@ jobs:
       matrix:
         ros2_distro: [foxy, humble, rolling]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: build
         run: |
           source /opt/ros/${{ matrix.ros2_distro }}/setup.bash
