@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ $# != 1 ]]; then
-  echo "[ERROR] ./$0 <path to PX4-Autopilot>" && exit 1
+  echo "[ERROR] $0 <path to PX4-Autopilot>" && exit 1
 fi
 
 PX4_MSG_PATH="$(readlink -f $1)/msg"
